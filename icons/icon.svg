@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Image frame (rounded rectangle) -->
+  <rect x="16" y="24" width="72" height="64" rx="8" ry="8" fill="#2563eb"/>
+  <!-- Inner white area representing image content -->
+  <rect x="22" y="30" width="60" height="52" rx="4" ry="4" fill="#ffffff"/>
+  <!-- Mountain/landscape triangle inside the image -->
+  <polygon points="22,72 42,52 62,72 82,72 82,82 22,82" fill="#bfdbfe"/>
+  <polygon points="22,72 42,52 62,72" fill="#60a5fa"/>
+  <!-- Small sun circle -->
+  <circle cx="68" cy="42" r="7" fill="#fbbf24"/>
+  <!-- Curved conversion arrow wrapping around bottom-right -->
+  <path d="M 80 56 Q 112 56 112 80 Q 112 104 84 104 L 68 104" fill="none" stroke="#2563eb" stroke-width="7" stroke-linecap="round"/>
+  <!-- Arrowhead -->
+  <polygon points="68,94 68,114 52,104" fill="#2563eb"/>
+</svg>
